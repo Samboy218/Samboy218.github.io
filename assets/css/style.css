@@ -133,3 +133,9 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 .cf:after { clear: both; }
 
 .cf { zoom: 1; }
+
+nav li { padding-left: 20px; display: inline; }
+
+nav ul { padding: 0; margin: 0; }
+
+nav span { position: relative; left: -15px; }
