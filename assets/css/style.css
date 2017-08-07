@@ -143,3 +143,5 @@ nav span { position: relative; left: -15px; }
 #parent { font-size: 0; }
 
 #parent > a { font-size: 16px; }
+
+curr a { text-decoration: none; }
