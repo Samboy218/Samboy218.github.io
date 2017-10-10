@@ -5,6 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="stylesheet" href="/assets/css/style.css?v=6f8252db41d35f83e9fa661dd67d10c0e5e85136">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/Favicon.png">
     <title>Sam's Site by Samboy218</title>
   </head>
 
@@ -72,21 +73,53 @@ so starting here makes sense.</p>
 
 <p><img src="/assets/images/pad/layout.jpg" alt="Image of final layout" title="Image of layout" /></p>
 
-<p><a href="http://www.keyboard-layout-editor.com/#/gists/1d57b9caed0c38da67a4c6adc07e87d6" title="Link to layout">This is the layout I ended up with</a>, and I have to say I really like it. It’s a simple 3x4 grid of 1u size keys, which is just enough to have all of
+<p><a href="http://www.keyboard-layout-editor.com/#/gists/1d57b9caed0c38da67a4c6adc07e87d6" title="link to layout">This is the layout I ended up with</a>, and I have to say I really like it. It’s a simple 3x4 grid of 1u size keys, which is just enough to have all of
 the numbers on the default layer, and one key left over which will be used to switch to the layer with the math symbols (along with return, delete, and num lock).</p>
 
-<p><img src="/assets/images/pad/IMG_20170406_212510.jpg" alt="all switches soldered into a matrix" title="Switches soldered" />
-<img src="/assets/images/pad/IMG_20170406_212537.jpg" alt="a look at the teensy microcontroller, here connected for testing" title="Teensy controller test" />
-<img src="/assets/images/pad/IMG_20170415_155215.jpg" alt="teensy attached to a breakout connecter and soldered to the rest of the pad" title="Teensy soldered to keypad" />
-<img src="/assets/images/pad/IMG_20170416_212151.jpg" alt="Angled view of finished keypad" title="Finished Keypad" />
-<img src="/assets/images/pad/IMG_20170416_212225.jpg" alt="Side view of finished keypad" title="Finished Keypad" />
-<img src="/assets/images/pad/IMG_20170416_212048.jpg" alt="Top view of finished keypad" title="Finished Keypad" /></p>
+<p>Once I know my layout, I can design the entire keyboard. I used the raw output of the layout editor in <a href="http://builder.swillkb.com/" title="link to builder site">this site</a> to generate CAD files of all of the
+pieces that would make my keyboard. From here I sent the CAD for the switch plate to <a href="http://lasergist.com/" title="link to Lasergist">Lasergist</a> to get laser cut out of steel, and the rest of the
+CAD files for the case went to <a href="https://www.ponoko.com/" title="link to Ponoko">Ponoko</a> for laser cutting out of acrylic.</p>
+
+<p>Other components required for this project include switches (I went with MX blacks here), diodes (for anti-ghosting), wire, a teensy 2.0 micro controller, and a 
+<a href="https://www.digikey.com/products/en?keywords=C2PXS-2406G-ND" title="teensy breakout">little breakout board that fits on the teensy</a> (digikey product #C2PXS-2406G-ND).</p>
+
+<p><img src="/assets/images/pad/IMG_20170406_212510.jpg" alt="all switches soldered into a matrix" title="Switches soldered" class="center-image" /></p>
+
+<p>Here we have all of the switches wired up in a matrix. The diodes are there to prevent ghosting.</p>
+
+<p><img src="/assets/images/pad/IMG_20170406_212537.jpg" alt="a look at the teensy microcontroller, here connected for testing" title="Teensy controller test" class="center-image" /></p>
+
+<p>The teensy is connected for testing.</p>
+
+<p><img src="/assets/images/pad/IMG_20170415_155215.jpg" alt="teensy attached to a breakout connecter and soldered to the rest of the pad" title="Teensy soldered to keypad" class="center-image" /></p>
+
+<p>now that i know the teensy works, I can solder it to the switches.</p>
+
+<p><img src="/assets/images/pad/IMG_20170416_212151.jpg" alt="Angled view of finished keypad" title="Finished Keypad" class="center-image" /></p>
+
+<p>a view of the finished keypad.</p>
+
+<p><img src="/assets/images/pad/IMG_20170416_212225.jpg" alt="Side view of finished keypad" title="Finished Keypad" class="center-image" /></p>
+
+<p>a view of the finished keypad.</p>
+
+<p><img src="/assets/images/pad/IMG_20170416_212048.jpg" alt="Top view of finished keypad" title="Finished Keypad" class="center-image" /></p>
+
+<p>a view of the finished keypad.</p>
 
 
       </section>
       <section id="sidebar">
         <ul>
             <h3>Recent Posts</h3>
+            
+                
+                <div class="post_list_item">
+                    <a href="/2017/10/10/keypad.html">Numpad Build</a>
+                    <p>The build log for my custom numberpad is up. <a href="/Projects/Keebs/twelvePad/" title="link to post">link</a>.</p>
+
+
+                </div>
             
                 
                 <div class="post_list_item">
@@ -102,18 +135,6 @@ the numbers on the default layer, and one key left over which will be used to sw
 
                 </div>
             
-                
-                <div class="post_list_item">
-                    <a href="/2017/08/06/future.html">FUTURE</a>
-                    <p>Ho did I do a thing from the future?
-Time zones maybe.</p>
-
-
-                </div>
-            
-                
-                    <a href="/posts">Read more...</a>
-                    
         </ul>
       </section>
     </div>
